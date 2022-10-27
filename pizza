@@ -1,0 +1,29 @@
+ escreval(b_qtd_2," ",beb_1
+ fimse
+ se b_c_3> 0 entao
+  escreval(b_qtd_3, " ", beb_3)
+  fimse
+  escreval( " valor da entrega -> 5,00R$")
+  escreval("")
+  escreval("tempo de entrega",((totalpedido + 5) : 1:2, " R$")
+  escreval("")
+  escreval("tempo de entrega" , ((tempoentraega * 5) + 10), "minutos")
+  escreval("")
+  escreval("o pedido possui alguma observação?")
+  leia(obs)
+  escreval("")
+  para i de 0 ate 1 faca
+  se fones = cadastro [i]. fone entao
+  escreval("dados do cliente para envio")
+  escreval("dados do cliente para envio")
+  escreval("nome:  ", cadastro[i].nome, " fone:", cadastro[i].fone)
+  escreval("endereço ", cadastro[i].rua, " n ° : " , cadastro [ i ] . n u m )
+ ESCREVAL("")
+ escreval("")
+ fimse
+ fimpara
+ escreval("pressione ENTER para retornar ao menu")
+ leia(retmenu)
+ limpatela
+ menu()
+ fimprocedimento
